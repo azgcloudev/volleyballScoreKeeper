@@ -1,0 +1,56 @@
+body {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+#volleyContainer {
+    width: 40rem;
+    margin: auto;
+    margin-top: 30px;
+}
+
+img {
+    width: 100%;
+}
+
+/* TITLE CONTAINER */
+#titleContainer {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    font-weight: 600;
+    border-bottom: 1px solid rgba(233, 231, 231, 0.567);
+}
+
+#title {
+    padding: 5px 0 5px 20px;
+}
+
+/* Score values */
+#scoreValues {
+    font-size: 2.5em;
+    font-weight: 600;
+}
+
+/* GAME RULES */
+#gameRules {
+    padding: 1.2em;
+}
+
+.subtitle {
+    font-weight: 700;
+    font-size: 1.1rem;
+}
+
+/* Buttons container */
+#buttons {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+}
+
+#buttons button {
+    font-weight: 600;
+    margin: 1px 5px;
+}
